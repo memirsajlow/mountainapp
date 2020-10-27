@@ -1,5 +1,6 @@
 
 import './App.scss';
+import Header from "../../components/Header/Header";
 
 function App() {
   return (
@@ -7,6 +8,7 @@ function App() {
       <header className="App-header">
        <h1>Siema góry!</h1>
       </header>
+      <Header/>
     </div>
   );
 }
