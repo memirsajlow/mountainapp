@@ -1,15 +1,18 @@
 
 import './App.scss';
 import Header from "../../components/Header/Header";
+import Footer from "../../components/Footer/Footer";
+import Home from "../Home/Home";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-       <h1>Siema góry!</h1>
-      </header>
-      <Header/>
-    </div>
+ 
+  <>
+    
+    <Header/>
+    <Home/>
+     <Footer/>
+    </>
   );
 }
 
