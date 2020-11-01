@@ -1,67 +1,82 @@
 @import "../../styles/mixins";
 
-@include mobile {
-    .App-header {
-        background-color: #bada55;
+
+
+.App-header {
+    background-color: rgba(0, 0, 0, 0.5);
+    //height: 70px;
+    //width: 100vw;
+    display: flex;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+    padding: 8px;
+    border-bottom: 2px solid #FFFFFF33;
+}
+.App {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   // height: 100%;
+    flex-direction: column;
+    
+    .logo {
+        font-size: 2rem;
+        font-weight: 300;
+        color: lightgrey;
+        text-decoration: none;
+      
+      }
+
+
+    .header__nav {
+        display: flex;
+        list-style: none;
+        
+
+    .nav__link {
+
+        color: lightgrey;
+        font-weight: 700;
+        font-size: 1em;
+        text-transform: uppercase;
+        padding: 28px 18px 22px;
+        //border: 4px solid transparent;
+        letter-spacing: 0.1875rem;
+        text-decoration: none;
+      }
+      
+      
+      .nav__link:hover {
+        color: cornflowerblue;
+       // border-color: darkslategray;
+      }
     }
 }
+
+
+
+// @include mobile {
+//     .App-header {
+//         background-color: #bada55;
+        
+//     }
+    
+// }
 
 @include tablet {
     .App-header {
         background-color: tomato;
+        .App {
+            flex-direction: row;
+        }
     }
 }
 
 @include desktop {
-    .App-header {
-        background-color:#708090;
-        height: 70px;
-        width: auto;
-        display: flex;
-        box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
-    }
     .App {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        height: 100%;
-        
-        .logo {
-            font-size: 2rem;
-            font-weight: 300;
-            color: black;
-            text-decoration: none;
-          
-          }
-          
-
-        .header__nav {
-            display: flex;
-            list-style: none;
-            
-
-        .nav__link {
-
-            color: black;
-            font-weight: 700;
-            font-size: 1em;
-            text-transform: uppercase;
-            padding: 28px 18px 22px;
-            border: 4px solid transparent;
-            letter-spacing: 0.1875rem;
-            text-decoration: none;
-          }
-          
-          
-          .nav__link:hover {
-            color: darkslategray;
-            border-color: darkslategray;
-          }
-        }
+        flex-direction: row;
     }
-
-
-
 }
+    
+
 
 

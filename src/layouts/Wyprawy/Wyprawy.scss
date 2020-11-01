@@ -1,0 +1,96 @@
+@import "../../styles/mixins";
+
+
+
+.App-wyprawy h2::before, .App-wyprawy h2::after {
+    content: "";
+    display: inline-block;
+    background-color: black;
+    width: 50px;
+    height: 3px;
+    margin: 10px;
+    
+}
+
+.App-wyprawy h2 {
+    text-align: center;
+}
+
+.App-wyprawy {
+   
+    background-color: honeydew;;
+   //position: absolute;
+   justify-content: center;
+}
+
+
+article {
+  // position: relative;
+    color: black;
+    border: 1px solid black;
+    border-radius: 2px;
+    width: 31%;
+    box-shadow: 5px 5px 5px rgba(68, 68, 68, 0.6);
+    margin: 50px;
+    
+    
+}
+
+.App-wyprawy article img {
+  //position: relative;
+    display: block;
+    max-width: 100%;
+    height: auto;
+    background-size: auto;
+}
+
+.App-wyprawy article h3 {
+margin-top: 25px;
+margin-bottom: 15px;
+text-align: center;
+//position: relative;
+}
+
+.App-wyprawy article p {
+    margin: 10px;
+}
+
+.read-more {
+    width: 142px;
+    height: 40px;
+    display: block;
+    background-color: gray;
+    color: white;
+    border-radius: 20px;
+    line-height: 40px;
+    text-align: center;
+   //position: relative;
+    text-decoration: none;
+    margin-left: 30px;
+    margin: 15px;
+    max-width: 100%;
+}
+
+@include tablet {
+    .App-wyprawy .articles {
+    display: flex;
+    justify-content: space-between;
+    
+
+    article img {
+        width: 100%;
+        
+    }
+}
+}
+@include desktop {
+    .App-wyprawy .articles {
+    display: flex;
+    justify-content: space-between;
+
+     article img {
+        width: 100%;
+        
+    }
+}
+}
