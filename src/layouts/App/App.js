@@ -29,9 +29,8 @@ function App() {
         <Wyprawy/> 
       </Route>
       <Route path="/more">
-      
         <More/> 
-        <Slider/>
+        
       </Route>
     </Switch>
     
