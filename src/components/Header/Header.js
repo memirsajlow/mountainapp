@@ -17,7 +17,7 @@ const Header = () => {
                 <a href="#mapa" className="nav__link">Mapa</a>
               </li>
               <li className="nav__element">
-                <a href="#galeria" className="nav__link">Galeria</a>
+                <a href="#galeria" className="nav__link">O mnie</a>
               </li>
               <li className="nav__element">
                 <a href="#kontakt" className="nav__link">Kontakt</a>

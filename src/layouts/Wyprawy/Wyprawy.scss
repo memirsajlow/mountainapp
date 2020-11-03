@@ -21,6 +21,7 @@
     background-color: honeydew;;
    position: absolute;
    justify-content: center;
+   
 }
 
 
@@ -31,17 +32,18 @@ article {
     border-radius: 2px;
     width: 31%;
     box-shadow: 5px 5px 5px rgba(68, 68, 68, 0.6);
-    margin: 50px;
-    
-    
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .App-wyprawy article img {
   //position: relative;
     display: block;
     max-width: 100%;
-    //height: auto;
+    height: auto;
     background-size: auto;
+    
 }
 
 .App-wyprawy article h3 {
@@ -53,12 +55,13 @@ text-align: center;
 
 .App-wyprawy article p {
     margin: 10px;
+   
 }
 
 .read-more {
     width: 142px;
     height: 40px;
-    
+    max-width: 100%;
     display: block;
     background-color: gray;
     color: white;
@@ -79,12 +82,17 @@ text-align: center;
     .App-wyprawy .articles {
     display: flex;
     justify-content: space-between;
-    
+    flex-wrap: wrap;
 
-    article img {
+
+    article {
+        margin: 50px;
+
+     img {
         width: 100%;
         
     }
+}
 }
 }
 @include desktop {
@@ -92,9 +100,13 @@ text-align: center;
     display: flex;
     justify-content: space-between;
 
-     article img {
+     article {
+         margin:50px;
+     
+     img {
         width: 100%;
-        
+        height: 50vh;
     }
+}
 }
 }
