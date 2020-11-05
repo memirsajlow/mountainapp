@@ -1,0 +1,46 @@
+@import "../../styles/fonts";
+@import "../../styles/mixins";
+
+.Form {
+    display:flex;
+    justify-content: center;
+    margin-top: 100px;
+    margin: 50px;
+
+    label {
+        color:white;
+        font-family: $font1;
+        padding: 5px;
+        display: flex;
+    }
+
+    input {
+        display: flex;
+        border-radius: 3px;
+        max-width: 100%;
+    }
+
+    textarea {
+        border-radius: 3px;
+        max-width: 100%;
+    }
+
+    .btn {
+        padding: 5px 10px;
+        border-radius: 34px;
+        background-color: tomato;
+        border: none;
+        margin-top: 5px;
+        font-family: $font1;
+    }
+}
+
+@include tablet {
+    float: left;
+  width: 100%;
+  margin: 60px;
+}
+
+@include desktop {
+    display: flex;
+}
