@@ -3,6 +3,7 @@ import './App.scss';
 import Header from "../../components/Header/Header";
 import Footer from "../../components/Footer/Footer";
 import Home from "../Home/Home";
+import MapContainer from "../../layouts/Mapa/Mapa";
 
 import Kontakt from "../../layouts/Kontakt/Kontakt";
 
@@ -35,6 +36,9 @@ function App() {
         </Route>
         <Route path="/kontakt">
         <Kontakt/> 
+      </Route>
+        <Route path="/mapa">
+        <MapContainer/> 
       </Route>
       
     </Switch>
