@@ -15,6 +15,8 @@ import {
 } from "react-router-dom";
 import Wyprawy from '../Wyprawy/Wyprawy';
 import More from "../More/More";
+import More2 from "../More/More2";
+import More3 from "../More/More3";
 
 
 function App() {
@@ -33,6 +35,12 @@ function App() {
       </Route>
       <Route path="/more">
         <More/> 
+        </Route>
+        <Route path="/more2">
+        <More2/> 
+        </Route>
+        <Route path="/more3">
+        <More3/> 
         </Route>
         <Route path="/about">
         <About/> 

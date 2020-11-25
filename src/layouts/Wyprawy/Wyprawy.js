@@ -24,7 +24,7 @@ const Wyprawy = () => {
                 <img src={SAM_2398} alt="SAM_2398" width="200px" height="200px"/>
                 <h3>PIK LENINA (7134 m n.p.m.). Góry Zaałajskie w Pamirze.</h3>
                 <p>Szczyt w Górach Zaałajskich w Pamirze, w Azji, na granicy Tadżykistanu i Kirgistanu, drugi co do wysokości (po Szczycie Ismaila Samaniego) w górach Pamiru. Do czasu rozpadu Związku Radzieckiego był drugim co do wysokości szczytem radzieckiego Pamiru i trzecim w ogóle szczytem ZSRR. </p>
-                <Link to = "/more" style={{textDecoration:"none"}}>
+                <Link to = "/more3" style={{textDecoration:"none"}}>
                 <a href="#" className="read-more">Więcej</a>
                 </Link>
             </article>
@@ -32,7 +32,7 @@ const Wyprawy = () => {
                 <img src={SAM_1336} alt="SAM_1336" width="200px" height="200px"/>
                 <h3>CASTOR (4228 m n.p.m.) i POLLUX (4092 m n.p.m.). Alpy Pennińskie. </h3>
                 <p>Castor i Pollux nazwane są bliźniakami (niem. „Zwillinge”). Szczyt można zdobyć ze schronisk Monte Rosa Hut (2795 m) i Gandegg Hütte (3029 m) po stronie szwajcarskiej oraz Rifugio Quintino Sella (3585 m) i Rifugio Ottorino Mezzalama (3036 m) po stronie włoskiej. Lodowiec pod szczytem to Lodowiec Zwilling. </p>
-                <Link to = "/more" style={{textDecoration:"none"}}>
+                <Link to = "/more2" style={{textDecoration:"none"}}>
                 <a href="#" className="read-more">Więcej</a>
                 </Link>
             </article>
