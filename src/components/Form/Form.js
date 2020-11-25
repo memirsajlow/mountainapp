@@ -24,20 +24,22 @@ export default function Form() {
         <div>
             <div className="container">
             <form onSubmit={sendEmail}>
-                    <div className="row pt-5 mx-auto">
-                        <div className="col-8 form-group mx-auto">
+                    <div className="container__form">
+                        <h1>Masz jakieś pytania?</h1>
+                        <h2> Napisz do mnie !</h2>
+                        <div className="contact form-group">
                             <input type="text" className="form-control" placeholder="Name" name="name"/>
                         </div>
-                        <div className="col-8 form-group pt-2 mx-auto">
+                        <div className="contact form-group">
                             <input type="email" className="form-control" placeholder="Email Address" name="email"/>
                         </div>
-                        <div className="col-8 form-group pt-2 mx-auto">
+                        <div className="contact form-group">
                             <input type="text" className="form-control" placeholder="Subject" name="subject"/>
                         </div>
-                        <div className="col-8 form-group pt-2 mx-auto">
+                        <div className="contact form-group">
                             <textarea className="form-control" id="" cols="30" rows="8" placeholder="Your message" name="message"></textarea>
                         </div>
-                        <div className="col-8 pt-3 mx-auto">
+                        <div className="contact button">
                             <input type="submit" className="btn btn-info" value="Send Message"></input>
                         </div>
                     </div>
