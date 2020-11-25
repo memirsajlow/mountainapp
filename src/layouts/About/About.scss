@@ -1,0 +1,38 @@
+@import "../../styles/fonts";
+@import "../../styles/variables";
+@import "../../styles/mixins";
+
+
+
+.foto {
+    display: flex;
+    justify-content: center;
+    
+
+    img {
+        height: 50vh;
+        box-shadow: rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    }
+
+    
+}
+
+.About-container h1::before, .About-container h1::after {
+    content: "";
+    display: inline-block;
+    background-color: black;
+    width: 50px;
+    height: 3px;
+    margin: 10px;
+    
+}
+
+.About-container {
+    margin-right: 300px;
+    margin-left: 300px;
+    p {
+
+        color: whitesmoke;
+        font-family: $font5;
+    }
+}

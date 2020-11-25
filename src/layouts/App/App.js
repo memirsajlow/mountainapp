@@ -6,7 +6,7 @@ import Home from "../Home/Home";
 import MapContainer from "../../layouts/Mapa/Mapa";
 
 import Kontakt from "../../layouts/Kontakt/Kontakt";
-
+import About from "../../layouts/About/About";
 import {
   BrowserRouter as Router,
   Switch,
@@ -34,6 +34,9 @@ function App() {
       <Route path="/more">
         <More/> 
         </Route>
+        <Route path="/about">
+        <About/> 
+      </Route>
         <Route path="/kontakt">
         <Kontakt/> 
       </Route>
